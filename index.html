@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rail Park</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body onload="myFunction()">
+
+    <!--Pre loader-->
+    <div id="preloader"></div>
+    
+    <header>
+        <div class="navbar">
+            <button class="alert" id="alert" onclick="skip()"> Skip to main content </button>
+
+            <div id="navigation">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <div class="nav" id="nav">
+                    
+                    <div class="menu-list1">
+                         <ul>
+                            <li><a href="https://www.therailpark.org">HOME</a></li>
+                            <li><a href="https://www.therailpark.org/donate/#membership">MEMBERSHIP</a></li>
+                            <li><a href="https://www.therailpark.org/resources/">RESOURCES</a></li>
+                            <li><a href="https://www.therailpark.org/news-and-events/#news">NEWS</a></li>
+                            <li><a href="https://www.therailpark.org/about/">ABOUT</a></li>
+                            <li><a href="https://www.therailpark.org/book-a-tour/">BOOK A TOUR</a></li>
+                            <li><a href="https://therailpark.square.site" target="main">SHOP</a></li>
+                        </ul>
+                        <div class="mlist11"><a href="https://www.therailpark.org"></a></div>
+                    </div>
+                    <div class="menu-list2">
+                        <div class="mlist21">VISIT</div>
+                        <div class="mlist22"><a href="https://www.therailpark.org/visit/#location">LOCATION</a></div>
+                        <div class="mlist22"><a href="https://www.therailpark.org/visit/#map">MAP</a></div>
+                        <div class="mlist22"><a href="https://www.therailpark.org/news-and-events/">EVENTS</a></div>
+                        <div class="mlist22"><a href="https://www.therailpark.org/faqs/">FAQS</a></div>
+                        <div class="mlist23">Say Hello</div>
+                        <div class="mlist24">friends@therailpark.org</div>
+                        <div class="mlist25">215-485-2221</div>
+            
+            
+            
+            
+                    </div>
+                    <div class="menu-list3">
+                        <div class="mlist31">VISION</div>
+                        <div class="mlist32"><a href="https://www.therailpark.org/vision/#progress">PROGRESS</a></div>
+                        <div class="mlist32"><a href="https://www.therailpark.org/history/">HISTORY</a></div>
+                        <div class="mlist32"><a href="https://www.therailpark.org/about/#team">TEAM</a></div>
+                        <div class="mlist32"><a href="https://www.therailpark.org/donate/">DONATE</a></div>
+                        <div class="mlist33">Office</div>
+                        <div class="mlist34">1219 Vine Street, Suite M Philadelphia, PA 19107</div>
+            
+            
+            
+            
+                    </div>
+                    <div class="menu-list4">
+                        <div class="mlist41">Hours & Info</div>
+                        <div class="mlist42">Free and open daily</div>
+                        <div class="mlist43">7:00 am – 10:00 pm</div>
+                        <div class="mlist44">Entrance</div>
+                        <div class="mlist45"><a
+                                href="https://www.google.com/maps/place/The+Rail+Park/@39.9602141,-75.1622212,17.81z/data=!4m5!3m4!1s0x89c6c7dc25ea5f13:0x456041fc06e8e739!8m2!3d39.9601668!4d-75.1599756?shorturl=1"
+                                target="main">N. Broad & Noble Streets
+                                Philadelphia, PA 19123</a>
+                        </div>
+                        <div class="mlist46">Follow Along</div>
+                        <div class="mlist47">
+                            <div id="instagram"><a href="https://www.instagram.com/therailpark/" target="main"><i
+                                        class="fa-brands fa-instagram"></i></a></div>
+                            <div id="twitter"><a href="https://twitter.com/therailpark" target="main"><i
+                                        class="fa-brands fa-twitter"></i></a></div>
+                            <div id="facebook"><a href="https://www.facebook.com/friendsoftherailpark" target="main"><i
+                                        class="fa-brands fa-facebook"></i></a></div>
+                        </div>
+                        <div class="mlist48">© 2024 Friends of the Rail Park</div>
+                        <div class="mlist49">The Friends of the Rail Park is a 501(c)3.</div>
+                        <div class="mlist50">All donations are tax-deductible.</div>
+            
+            
+                    </div>
+                </div>
+               
+
+            </div>   
+            
+            
+            
+
+
+
+
+
+
+
+            <ul class="medium-item">
+                <li><a href="https://www.therailpark.org/visit/" role="link" id="link1">VISIT</a></li>
+                <li>
+                    <div id="logo">
+                        <div class="text1">Rail Park Logo</div>
+                    </div>
+                </li>
+                <li><a href="https://www.therailpark.org/vision/" role="link" id="link2">VISION</a></li>
+            </ul>
+            <div class="search-button"><i class="fa-solid fa-magnifying-glass"></i><pre>  Search</pre></div>
+            <div class="last-item">
+                <a href="https://www.therailpark.org/donate/" role="link" id="donate-button">
+                    <div id="cell-container">DONATE</div>
+                    <div class="language">
+                        <a href="https://www.therailpark.org/es/" role="link">ES</a>
+                        <pre>  |  </pre>
+                        <a href="https://www.therailpark.org/zh-cn/" role="link">中文</a>
+                    </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <div class="cont1">The Rail</div>
+                    <div class="cont2">Park</div>
+                    <div class="cont3">Turning historic tracks into an unparalleled park.</div>
+                    <div class="cont4"><a href="https://www.therailpark.org/vision/">See the full vision
+                            <pre class="cont5"> →</pre>
+                        </a></div>
+                </div>
+                <img src="images/img3.jpg" alt="img-3" class="slides-images">
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <div class="cont1">The Rail</div>
+                    <div class="cont2">Park</div>
+                    <div class="cont6">Phase One is free & open daily</div>
+                    <div class="cont4"><a href="https://www.therailpark.org/visit/">Plan your visit
+                            <pre class="cont5"> →</pre>
+                        </a></div>
+                </div>
+                <img src="images/img2.jpg" alt="img-2" class="slides-images">
+
+
+            </div>
+
+            <span class="arrow2 prev" onclick="controller(-1)"><i class="fa-solid fa-arrow-left-long"></i></span>
+            <div class="arrow2 swipe-button">Swipe</div>
+            <span class="arrow2 next" onclick="controller(1)"><i class="fa-solid fa-arrow-right-long"></i></span>
+
+
+
+        </div>
+        <div class="medium2">
+            <h2 id="med21">Visiting the</h2>
+            <h2 id="med22">Rail Park</h2>
+            <div class="main-container1">
+                <div class="video-container1">
+                    <video poster="posters/poster1.jpg" preload="none" loop muted playsinline>
+                        <source src="videos/vid1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="med23">
+                    <div class="arrow">←</a></div>
+                    <p id="med24">Noble St Entrance</p>
+                    <p id="med25">1300 Noble St.</p>
+                </div>
+                <div class="med26">
+                    <div id="med27"></div>
+                    <div id="med28">
+                        <i class="fa-brands fa-accessible-icon"></i>
+                        <div class="text2">This entrance is wheelchair accessible, with an ADA compliant slope.</div>
+                    </div>
+                    <div id="med29">
+                        <p>Get Directions</p>
+                        <pre id="med30"> ↗</pre>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="medium3"></div>
+        <div class="medium4">
+
+            <div class="main-container2">
+
+                <div class="med33">
+                    <div class="arrow1">→</div>
+                    <p id="med34">Callowhill St Entrance</p>
+                    <p id="med35">Between 11th & 12th St</p>
+                </div>
+                <div class="med36">
+                    <div id="med37"></div>
+                    <div id="med31">
+                        <pre id="med32"> ↗</pre>
+                        <i class="fa-solid fa-stairs"></i>
+                        <div class="text3">This entrance is a staircase. For ramp access, use the Noble St. entrance.
+                        </div>
+                    </div>
+                    <div id="med38">
+                        <p>Get Directions</p>
+                        <pre id="med39"> ↗</pre>
+                    </div>
+                </div>
+                <div class="video-container2">
+                    <video poster="posters/poster2.jpg" preload="none" loop muted playsinline>
+                        <source src="videos/vid2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="medium5">
+            <div class="med51">We are building a</div>
+            <div class="med52">
+                <div class="med53">three mile greenway</div>
+                <div class="hover-video" id="hovervideo">
+                    <video loop muted autoplay>
+                        <source src="videos/vid6.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+            </div>
+            <div class="med51">with three distinct sections</div>
+            <div class="med51">across ten neighborhoods</div>
+            <div class="med54">And there's a lot more to do</div>
+        </div>
+        <div class="medium6">
+            <div class="main-container3">
+                <div class="video-container3">
+                    <div id="poster3"></div>
+                    <video id="video3" loop muted>
+                        <source src="videos/vid3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="med61">
+                    <div id="med62">The Viaduct</div>
+                    <div id="med63">Chinatown → Northern Liberties</div>
+                </div>
+            </div>
+            <div class="main-container4">
+                <div class="video-container4">
+
+                    <video poster="posters/poster4.jpg" preload="none" loop muted playsinline>
+                        <source src="videos/vid4.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="med64">
+                <div id="med65">Our full vision for the Rail Park is to create a three-mile greenway with three
+                    sections: the Viaduct, the Cut, and the Tunnel. It will reach from Northern Liberties to Fairmount
+                    Park, with pathways and gathering spaces that will serve pedestrians, bicyclists, neighbors, and
+                    visitors alike.</div>
+                <div class="med66">
+                    <div id="med67">The Cut</div>
+                    <div id="med68">Callowhill → Francisville</div>
+                </div>
+            </div>
+            <div class="med69"><a href="https://www.therailpark.org/vision/">Learn more about the full vision
+                    <pre id="med70"> →</pre>
+                </a>
+            </div>
+            <div class="main-container5">
+                <div class="video-container5">
+                    <div id="poster5"></div>
+                    <video loop muted>
+                        <source src="videos/vid5.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="med71">
+                    <div id="med72">The Tunnel</div>
+                    <div id="med73">Fairmount → Brewerytown</div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="medium7">
+            <a href="https://www.therailpark.org/event/roots-of-the-rail-park-end-of-year-fundraiser/">
+
+                <div id="med74"></div>
+                <div class="med75">
+                    <div id="med76">Sunday, December 31, 2023</div>
+                    <div id="med77">Roots of The Rail Park End-of-Year Fundraiser</div>
+                    <div id="med78">Details
+                        <pre id="med79"> →</pre>
+                    </div>
+                </div>
+
+            </a>
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="last1">
+            <div class="last11">Be the first to know about news, events, and progress.</div>
+            <div class="last12">
+                <input type="text" placeholder="Enter your email" id="email-field">
+                <button type="submit" id="email-button"> → </button>
+
+            </div>
+            <div class="last13"></div>
+        </div>
+        <div class="last2">
+            <div class="list1">
+                <div class="circular-effect">
+
+                    <div class="coin"></div>
+
+                    <div class="text">
+                        <p>CLICK HERE TO DONATE TODAY</p>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="list11">© 2024 Friends of the Rail Park</div>
+                <div class="list12">The Friends of the Rail Park is a 501(c)3.</div>
+                <div class="list13">All donations are tax-deductible.</div>
+
+            </div>
+            <div class="list2">
+                <div class="list21">Hours & Info</div>
+                <div class="list22">Free and open daily</div>
+                <div class="list23">7:00 am – 10:00 pm</div>
+                <div class="list24">Entrance</div>
+                <div class="list25"><a
+                        href="https://www.google.com/maps/place/The+Rail+Park/@39.9602141,-75.1622212,17.81z/data=!4m5!3m4!1s0x89c6c7dc25ea5f13:0x456041fc06e8e739!8m2!3d39.9601668!4d-75.1599756?shorturl=1"
+                        target="main">N. Broad & Noble Streets
+                        Philadelphia, PA 19123</a>
+                </div>
+                <div class="list26">Translations</div>
+                <div class="list27">
+                    <a href="https://www.therailpark.org/es/">Español</a>
+                    <pre id="list28"> / </pre>
+                    <a href="https://www.therailpark.org/zh-cn/">中文</a>
+                </div>
+            </div>
+
+            <div class="list3">
+                <div class="list31">Say Hello</div>
+                <div class="list32"><a href="mailto:friends@therailpark.org" target="_blank">friends@therailpark.org</a>
+                </div>
+                <div class="list33"><a href="tel:215-485-2221" target="_blank">215-485-2221</a></div>
+                <div class="list34">Office</div>
+                <div class="list35"><a
+                        href="https://www.google.com/maps/place/1219+Vine+St,+Philadelphia,+PA+19107/@39.958019,-75.1614622,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c62b4670dbfd:0x5d690066c86417d8!8m2!3d39.958019!4d-75.1592682?shorturl=1"
+                        target="main">1219 Vine Street, Suite M
+                        Philadelphia, PA 19107</a>
+                </div>
+                <div class="list36">Follow Along</div>
+                <div class="list37">
+                    <div id="instagram"><a href="https://www.instagram.com/therailpark/" target="main"><i
+                                class="fa-brands fa-instagram"></i></a></div>
+                    <div id="twitter"><a href="https://twitter.com/therailpark" target="main"><i
+                                class="fa-brands fa-twitter"></i></a></div>
+                    <div id="facebook"><a href="https://www.facebook.com/friendsoftherailpark" target="main"><i
+                                class="fa-brands fa-facebook"></i></a></div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
