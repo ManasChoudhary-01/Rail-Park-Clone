@@ -229,6 +229,19 @@ text.innerHTML = text.innerText.split("").map(
     `<span style="transform:rotate(${i * 13.2}deg)">${char}</span>`
 ).join("");
 
+const text1 = document.querySelector('.text5 p');
+text1.innerHTML = text1.innerText.split("").map(
+  (char,i) =>
+  `<span style="transform:rotate(${i * 12.3}deg)">${char}</span>`
+).join("") ; 
+
+
+const text2 = document.querySelector('.text6 p');
+text2.innerHTML = text2.innerText.split("").map(
+  (char,i) =>
+  `<span style="transform:rotate(${i * 13.2}deg)">${char}</span>`
+).join("") ;
+
 
 // PRE-LOADER
 
