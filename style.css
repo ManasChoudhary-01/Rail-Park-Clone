@@ -726,6 +726,56 @@ ul li a {
     display: none;
 }
 
+.circular-effect2 {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    background:transparent ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(82vw,-27vw,0);
+    
+}
+.circle1 {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background-color:transparent;
+    border-radius: 50%;
+    
+
+}
+.text6 {
+    color: #04C75C;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 25s linear infinite;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    
+
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text6 span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2vw;
+    transform-origin: 0 4.5vw;
+}
+
 /* IMAGE-SLIDER ENDS */
 
 
@@ -1445,12 +1495,16 @@ ul li a {
     border: 0.2vw solid #FAF9F7;
 }
 
-#med76 {
+#med76{
+    display: flex;
+    flex-direction: row;
+}
+#new {
     font-size: 1.5vw;
     font-weight: lighter;
 }
 
-#med76::selection {
+#new::selection {
     background-color: #0CEE72;
     color: #131313;
 }
@@ -1459,6 +1513,7 @@ ul li a {
     font-size: 3.3vw;
     font-family: 'Raleway:wght@200', sans-serif;
     width: 35vw;
+    transform: translateY(-4vw);
 
 }
 
@@ -1486,6 +1541,54 @@ ul li a {
     transition: 0.19s ease;
     transform: translateX(0.5vw);
 
+}
+.circular-effect1 {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    background:transparent ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(8vw,-6vw,0);
+    
+}
+.circle {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background-color:transparent;
+    border-radius: 50%;
+    
+
+}
+.text5 {
+    color: #A11AD5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 25s linear infinite;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text5 span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2vw;
+    transform-origin: 0 4.5vw;
 }
 
 /* MAIN-MEDIUM-7 ENDS*/
