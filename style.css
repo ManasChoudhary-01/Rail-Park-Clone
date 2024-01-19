@@ -787,13 +787,13 @@ ul li a {
 }
 
 .med21 {
-    height: 4.9vw;
+    line-height: 6vw;
     font-size: 4.9vw;
     font-family: 'Raleway', sans-serif;
     padding-left: 57.5vw;
     background-color: #FAF9F7;
     transition: 0.5s;
-    line-height: 7vw;
+    
 }
 
 .med21::selection {
